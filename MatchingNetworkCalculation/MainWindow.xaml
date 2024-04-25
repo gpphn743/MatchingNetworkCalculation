@@ -1,0 +1,56 @@
+﻿<Window x:Class="MatchingNetworkCalculation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MatchingNetworkCalculation"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Margin="72,39,72,39">
+            <TextBlock TextWrapping="Wrap" Height="47" HorizontalAlignment="Center" FontSize="22"><Run FontWeight="Bold" Text="Matching Network Calculation"/></TextBlock>
+            
+            <StackPanel Height="32" Orientation="Horizontal" Margin="0,10,0,10">
+                <TextBlock Text="- Type of Matching Network: " FontSize="20" Height="28" Width="269"/>
+                <ComboBox x:Name="TypeComboBox" Width="173" Height="28" SelectionChanged="ComboBox_SelectionChanged_1"/>
+            </StackPanel>
+            
+            <!--<StackPanel Height="32" Orientation="Horizontal" Margin="0,10,0,10">
+                <TextBlock Text="- Function: " FontSize="20" Height="28" Width="269"/>
+                <ComboBox x:Name="FuncComboBox" Width="173" Height="28" SelectionChanged="ComboBox_SelectionChanged_2"/>
+            </StackPanel>-->
+            
+            <StackPanel Height="32" Margin="0,10,0,10" Orientation="Horizontal">
+                
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,0,20,0">
+                    <TextBlock Text="- Zin: " FontSize="20" Height="28" Width="111"/>
+                    <TextBox x:Name="ZinTextBox" TextWrapping="Wrap" Width="120" Height="20" TextChanged="TextBox_TextChanged"/>
+                    <Label Content="Ohm" FontSize="16" Width="45"/>
+                </StackPanel>
+                
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <TextBlock Text="- RL: " FontSize="20" Height="28" Width="111"/>
+                    <TextBox x:Name="RLTextBox" TextWrapping="Wrap" Width="120" Height="20"/>
+                    <Label Content="Ohm" FontSize="16"/>
+                </StackPanel>
+                
+            </StackPanel>
+
+            <StackPanel Height="32" Margin="0,10,0,10" Orientation="Horizontal">
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,0,20,0">
+                    <TextBlock Text="- f: " FontSize="20" Height="28" Width="111"/>
+                    <TextBox x:Name="FTextBox" TextWrapping="Wrap" Width="120" Height="20" TextChanged="TextBox_TextChanged_1"/>
+                    <Label Content="Hz" FontSize="16" Width="45"/>
+                </StackPanel>
+
+                <!--<StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <TextBlock Text="- Q: " FontSize="20" Height="28" Width="111"/>
+                    <TextBox x:Name="QTextBox" TextWrapping="Wrap" Width="120" Height="20"/>
+                </StackPanel>-->
+
+            </StackPanel>
+            <Button x:Name="EnterButton" Content="Enter" Width="72" Margin="0,10,0,10" Click="EnterButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

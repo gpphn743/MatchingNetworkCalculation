@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatchingNetworkCalculation", "MatchingNetworkCalculation\MatchingNetworkCalculation.csproj", "{8099F7FE-CFAE-48BB-8E19-70336BD3AF94}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MNCsetup", "MNCsetup\MNCsetup.vdproj", "{BC76A7C1-163E-4DEB-A8EA-2618413F69B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BB64B9F5-142D-44C0-878A-ED80F248577B}"
+	ProjectSection(SolutionItems) = preProject
+		Images\l_network_dc_block.png = Images\l_network_dc_block.png
+		Images\l_network_dc_feed.png = Images\l_network_dc_feed.png
+		Images\pi_network_dc_block.png = Images\pi_network_dc_block.png
+		Images\pi_network_dc_feed.png = Images\pi_network_dc_feed.png
+		Images\t_network_dc_block.png = Images\t_network_dc_block.png
+		Images\t_network_dc_feed.png = Images\t_network_dc_feed.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8099F7FE-CFAE-48BB-8E19-70336BD3AF94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8099F7FE-CFAE-48BB-8E19-70336BD3AF94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8099F7FE-CFAE-48BB-8E19-70336BD3AF94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8099F7FE-CFAE-48BB-8E19-70336BD3AF94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC76A7C1-163E-4DEB-A8EA-2618413F69B1}.Debug|Any CPU.ActiveCfg = Debug
+		{BC76A7C1-163E-4DEB-A8EA-2618413F69B1}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {845E611D-0A78-4D58-832B-3B88AF0362D1}
+	EndGlobalSection
+EndGlobal
